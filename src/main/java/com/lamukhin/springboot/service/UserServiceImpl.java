@@ -50,7 +50,7 @@ public class UserServiceImpl implements UserService {
 		if (user == null) {
 			throw new NoSuchUserException("No users with email " + email + " have found. " + "Sign up on /api/signup");
 		} else if (!user.getPassword().equals(password)) {
-			throw new LoginException("You have entered wrong pasword, try again.");
+			throw new LoginException("You have entered wrong password, try again.");
 		}
 		return user;
 	}
