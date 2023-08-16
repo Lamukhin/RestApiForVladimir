@@ -1,7 +1,6 @@
 package com.lamukhin.springboot.service;
 
 import java.util.List;
-import java.util.UUID;
 
 import com.lamukhin.springboot.entity.User;
 

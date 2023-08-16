@@ -2,7 +2,6 @@ package com.lamukhin.springboot.service;
 
 import java.sql.Timestamp;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,7 +9,6 @@ import org.springframework.stereotype.Service;
 import com.lamukhin.springboot.dao.MessageRepository;
 import com.lamukhin.springboot.dao.UserRepository;
 import com.lamukhin.springboot.entity.Message;
-import com.lamukhin.springboot.entity.User;
 import com.lamukhin.springboot.exception_handling.AccessException;
 import com.lamukhin.springboot.exception_handling.NoSuchMessageException;
 import com.lamukhin.springboot.exception_handling.NoSuchUserException;
